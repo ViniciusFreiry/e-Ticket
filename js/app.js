@@ -1,7 +1,7 @@
 const quantidadeIngressos = {
-    pista: 100,
-    superior: 200,
-    inferior: 400
+    pista: parseInt(document.getElementById("qtd-pista").innerHTML),
+    superior: parseInt(document.getElementById("qtd-superior").innerHTML),
+    inferior: parseInt(document.getElementById("qtd-inferior").innerHTML)
 }
 
 function comprar() {
